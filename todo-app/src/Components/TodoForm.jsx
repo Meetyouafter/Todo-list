@@ -1,6 +1,6 @@
 import { uniqueId } from "lodash";
 import React, { useState, useEffect, useRef } from "react";
-import styles from '../App.css';
+import '../App.css';
 
 function TodoForm(props) {
   const [todoItem, setTodoItem] = useState(props.edit ? props.edit.value : '');
