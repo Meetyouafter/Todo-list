@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import TodoForm from "./TodoForm";
 import cn from "classnames";
 import { RiCloseCircleLine } from "react-icons/ri";
 import { TiEdit } from "react-icons/ti";
-import TodoForm from "./TodoForm";
 import "../App.css";
 
 function Todo({ todos, completeTodo, removeTodo, updateTodo }) {
